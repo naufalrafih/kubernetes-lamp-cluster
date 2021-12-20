@@ -11,7 +11,7 @@ Optional: Create multi-node cluster using [config file](kind-config.yaml) <br>
 3. Create all 4 manifests on [lamp-stack folder](lamp-stack) <br>
 ```kubectl create -f [FILENAME].yaml```
 
-4. Copy [index.php](index.php) file to php container <br>
+4. Copy [index.php](lamp-stack/index.php) file to php container <br>
 ```kubectl cp index.php [LAMP_POD_NAME]:/app -c php-container``` <br>
 ```kubectl exec -it [LAMP_POD_NAME] -c php-container -- cat /app/index.php```
 
