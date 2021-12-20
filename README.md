@@ -15,7 +15,7 @@ Optional: Create multi-node cluster using [config file](kind-config.yaml) <br>
 ```kubectl cp index.php [LAMP_POD_NAME]:/app -c php-container``` <br>
 ```kubectl exec -it [LAMP_POD_NAME] -c php-container -- cat /app/index.php```
 
-5. Expose the service to the preferred port
+5. Expose the service to the preferred port <br>
 ```kubectl port-forward service/[LAMP_SERVICE_NAME] [PORT]:80```
 
 6. Open ```localhost:[PORT]``` in your browser
