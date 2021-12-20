@@ -3,7 +3,7 @@ Deploy LAMP stack on Kubernetes Cluster using kind <br>
 Step by step:
 
 1. Create kind cluster <br>
-Optional: Create multi-node cluster using [manifest](kind-config.yaml) <br>
+Optional: Create multi-node cluster using [config file](kind-config.yaml) <br>
 ```kind create cluster --config kind-config.yaml```
 
 2. Create secret using [secrets file](secrets)
