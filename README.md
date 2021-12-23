@@ -8,7 +8,7 @@ Optional: Create multi-node cluster using [config file](kind-config.yaml) <br>
 
 2. Create secret using [secrets file](secrets)
 
-3. Create all 4 manifests on [lamp-stack folder](lamp-stack) <br>
+3. Create all manifests on [lamp-stack folder](lamp-stack) <br>
 ```kubectl create -f [FILENAME].yaml```
 
 4. Copy [index.php](lamp-stack/index.php) file to php container <br>
